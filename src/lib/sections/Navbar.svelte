@@ -1,4 +1,6 @@
-<script lang="ts"></script>
+<script lang="ts">
+	import AnimatedClock from '$lib/components/AnimatedClock.svelte';
+</script>
 
 <nav>
 	<div class="level">
@@ -7,7 +9,7 @@
 	</div>
 	<div class="times">
 		<p>Local time:</p>
-		<p>3:06</p>
+		<AnimatedClock />
 	</div>
 </nav>
 

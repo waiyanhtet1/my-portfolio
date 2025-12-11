@@ -1,4 +1,5 @@
 <script>
+	import QuoteTyper from '$lib/components/QuoteTyper.svelte';
 	import Scene from '$lib/components/Scene.svelte';
 	import { Canvas } from '@threlte/core';
 </script>
@@ -38,9 +39,7 @@
 		<p>Display: 7-inch holographic mini-panel for visual output</p>
 	</div>
 
-	<p class="quote">
-		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, doloremque.
-	</p>
+	<QuoteTyper />
 </div>
 
 <style>
@@ -96,21 +95,12 @@
 		border-top: none;
 	}
 
-	.quote {
-		position: absolute;
-		top: 0;
-		left: 0;
-		color: white;
-		padding: 30px 20px;
-		letter-spacing: 1px;
-		z-index: -999;
-	}
-
 	h1 {
 		position: absolute;
 		bottom: 5px;
 		right: 5px;
 		color: var(--primary);
+		font-family: var(--secondary-font);
 	}
 	.spec {
 		position: absolute;
@@ -118,6 +108,7 @@
 		bottom: 45px;
 		color: var(--gray);
 		text-align: right;
+		font-family: var(--secondary-font);
 	}
 
 	.power {
@@ -126,6 +117,7 @@
 		right: 10px;
 		color: var(--gray);
 		text-align: right;
+		font-family: var(--secondary-font);
 	}
 
 	.interation {
@@ -133,5 +125,6 @@
 		left: 10px;
 		bottom: 10px;
 		color: var(--gray);
+		font-family: var(--secondary-font);
 	}
 </style>

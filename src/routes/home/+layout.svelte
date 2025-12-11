@@ -16,7 +16,7 @@
 
 <style>
 	.whole-container {
-		margin: 10px 2rem;
+		margin: 10px 1rem;
 	}
 
 	.container {
