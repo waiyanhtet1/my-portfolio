@@ -1,0 +1,15 @@
+:root {
+    --primary: #E84A4A;
+    --primary-font: "Big Shoulders", sans-serif;
+    --secondary-font: "Iceland", sans-serif;
+}
+
+html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000003;
+    background: linear-gradient(45deg, rgba(0, 0, 3, 1) 91%, rgba(232, 74, 74, 1) 100%);
+    font-family: var(--primary-font);
+}
