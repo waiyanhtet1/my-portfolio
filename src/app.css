@@ -1,24 +1,29 @@
 :root {
-    --primary: #E84A4A;
-    --gray : #7A7A7A;
+	--primary: #e84a4a;
+	--secondary: #2c0f14;
+	--gray: #7a7a7a;
 
-    --border-gray: rgb(255 255 255 / 13%);
-    --green: #7DFF68;
-    --primary-font: "Big Shoulders", sans-serif;
-    --secondary-font: "Iceland", sans-serif;
+	--primary-bg: #000003;
+
+	--border-gray: rgb(255 255 255 / 13%);
+	--green: #7dff68;
+	--primary-font: 'Big Shoulders', sans-serif;
+	--secondary-font: 'Iceland', sans-serif;
 }
 
 * {
-		margin: 0;
-
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #000003;
-    background: linear-gradient(45deg, rgba(0, 0, 3, 1) 91%, rgba(232, 74, 74, 1) 100%);
-    font-family: var(--primary-font);
+	height: 100vh;
+	background: var(--primary-bg);
+	background: linear-gradient(45deg, rgba(0, 0, 3, 1) 91%, rgba(232, 74, 74, 1) 100%);
+	font-family: var(--primary-font);
+}
+
+a {
+	text-decoration: none;
 }

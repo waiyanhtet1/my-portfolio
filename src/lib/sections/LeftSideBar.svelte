@@ -1,5 +1,7 @@
 <script lang="ts">
 	import profileImg from '$lib/assets/profile.png';
+	import Button from '$lib/components/Button.svelte';
+	import { Github, Linkedin } from '@lucide/svelte';
 </script>
 
 <aside class="left-side">
@@ -31,7 +33,25 @@
 
 	<div>
 		<p class="key">socials</p>
-		<p class="value">24 hours</p>
+		<div class="socials">
+			<a href="https://www.linkedin.com/in/wai-yan-htet-43485a176/" target="_blank">
+				<Button size="sm">
+					<div class="social">
+						<p>linkedin</p>
+						<Linkedin size={18} />
+					</div>
+				</Button>
+			</a>
+		</div>
+
+		<a href="https://github.com/waiyanhtet1" target="_blank">
+			<Button size="sm">
+				<div class="social">
+					<p>github</p>
+					<Github size={18} />
+				</div>
+			</Button>
+		</a>
 	</div>
 </aside>
 
@@ -50,6 +70,7 @@
 	.left-side div .key {
 		color: white;
 		font-family: var(--secondary-font);
+		margin-bottom: 3px;
 	}
 
 	.left-side div .value {
@@ -115,5 +136,16 @@
 		left: -2px;
 		border-right: none;
 		border-top: none;
+	}
+
+	.socials {
+		margin: 10px 0;
+	}
+
+	.social {
+		width: 150px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 </style>
