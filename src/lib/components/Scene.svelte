@@ -11,14 +11,13 @@
 	});
 </script>
 
-<T.PerspectiveCamera makeDefault fov={20} position={[5, 0, 8]}>
+<T.PerspectiveCamera makeDefault fov={15} position={[5, 0, 8]}>
 	<OrbitControls
 		autoRotate
 		autoRotateSpeed={10}
 		enableDamping
 		enableZoom={false}
 		target={[0, 1, 0]}
-		enableRotate={false}
 	/>
 </T.PerspectiveCamera>
 
