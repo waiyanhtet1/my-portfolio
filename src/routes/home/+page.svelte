@@ -97,7 +97,7 @@
 
 	h1 {
 		position: absolute;
-		bottom: 5px;
+		bottom: 50px;
 		right: 5px;
 		color: var(--primary);
 		font-family: var(--secondary-font);
@@ -105,7 +105,7 @@
 	.spec {
 		position: absolute;
 		right: 10px;
-		bottom: 45px;
+		bottom: 85px;
 		color: var(--gray);
 		text-align: right;
 		font-family: var(--secondary-font);
@@ -123,7 +123,7 @@
 	.interation {
 		position: absolute;
 		left: 10px;
-		bottom: 10px;
+		bottom: 60px;
 		color: var(--gray);
 		font-family: var(--secondary-font);
 	}

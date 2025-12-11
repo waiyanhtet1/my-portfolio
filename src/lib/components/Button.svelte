@@ -36,7 +36,6 @@
 		justify-content: space-between;
 		background-color: transparent;
 		border: 1px solid var(--primary);
-		padding: 10px 30px;
 		text-transform: uppercase;
 		color: var(--primary);
 		font-family: var(--primary-font);
