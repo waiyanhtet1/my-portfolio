@@ -1,7 +1,16 @@
 :root {
     --primary: #E84A4A;
+    --gray : #7A7A7A;
+
+    --border-gray: rgb(255 255 255 / 13%);
+    --green: #7DFF68;
     --primary-font: "Big Shoulders", sans-serif;
     --secondary-font: "Iceland", sans-serif;
+}
+
+* {
+		margin: 0;
+
 }
 
 html {

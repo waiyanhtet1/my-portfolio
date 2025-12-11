@@ -14,7 +14,7 @@
 				progress += 1;
 				loadingText = `Initializing System... ${progress}%`;
 			}
-		}, 50);
+		}, 10);
 	});
 </script>
 

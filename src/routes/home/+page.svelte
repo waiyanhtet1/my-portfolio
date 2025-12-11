@@ -5,3 +5,8 @@
 
 	<Scene />
 </Canvas> -->
+<style>
+	h1 {
+		color: var(--primary);
+	}
+</style>

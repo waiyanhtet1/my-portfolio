@@ -16,11 +16,13 @@
 			You will find fully information of my professional life and are related to what I am working
 			on.
 		</p>
-		<p class="sub-title-description2">
+		<p class="sub-title-description3">
 			!! Be aware when you enter the system the sound will start !!
 		</p>
 
-		<ProgressBar />
+		<div class="bar">
+			<ProgressBar />
+		</div>
 	</div>
 </div>
 
@@ -46,10 +48,17 @@
 
 	.sub-title {
 		font-size: 22px;
+		margin-bottom: 2rem;
 	}
 
 	.sub-title-description1,
-	.sub-title-description2 {
+	.sub-title-description2,
+	.sub-title-description3 {
 		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	.bar {
+		margin-top: 2rem;
 	}
 </style>
