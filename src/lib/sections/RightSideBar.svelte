@@ -7,20 +7,20 @@
 <div class="container">
 	<div>
 		<div class="quest-header">
-			<p>active quest</p>
+			<p>Specification</p>
 			<BrainCircuit />
 		</div>
 
-		<p class="quest-item">Native Application Development</p>
+		<p class="quest-item">Mobile Application Development</p>
 		<p class="quest-item">Website Application Development</p>
 	</div>
 
 	<div class="quest">
-		<p class="key">quest name</p>
-		<p class="value">Kotlin</p>
-		<p class="value">Laravel</p>
-		<p class="value">Vue</p>
-		<p class="value">Laravel + Vue + Intertia</p>
+		<p class="key">developed portfolio by</p>
+		<p class="value">SvelteKit</p>
+		<p class="value">Javascript</p>
+		<p class="value">Svelte Threlte</p>
+		<p class="value">3D model</p>
 	</div>
 
 	<div class="rewards">

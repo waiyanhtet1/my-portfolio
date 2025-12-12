@@ -1,12 +1,17 @@
 :root {
 	--primary: #e84a4a;
 	--secondary: #2c0f14;
+	--green: #7dff68;
+	--blue: #4aafe8;
+	--yellow: #d4a944;
 	--gray: #7a7a7a;
+	--bg-gray: #242425;
 
 	--primary-bg: #000003;
 
 	--border-gray: rgb(255 255 255 / 13%);
-	--green: #7dff68;
+	--border-gray-dark: #333333;
+
 	--primary-font: 'Big Shoulders', sans-serif;
 	--secondary-font: 'Iceland', sans-serif;
 }

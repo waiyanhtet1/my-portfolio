@@ -18,6 +18,7 @@
 		enableDamping
 		enableZoom={false}
 		target={[0, 1, 0]}
+		enableRotate={false}
 	/>
 </T.PerspectiveCamera>
 
