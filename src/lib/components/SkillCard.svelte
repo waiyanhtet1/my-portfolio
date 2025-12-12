@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { ColorType } from '$lib/types/SkillType';
+	import { onMount } from 'svelte';
 
 	interface Props {
 		color: ColorType;
@@ -8,13 +9,25 @@
 	}
 
 	let { color, name, icon }: Props = $props();
+	let clickSound: HTMLAudioElement;
+
+	onMount(() => {
+		clickSound = new Audio('/assets/sounds/hover.wav');
+	});
+
+	function playSound() {
+		if (clickSound) {
+			clickSound.currentTime = 0;
+			clickSound.play();
+		}
+	}
 </script>
 
-<div class="container {color}">
+<button class="container {color}" onmouseenter={playSound}>
 	<img src={icon} alt="" />
 
 	<p class={color}>{name}</p>
-</div>
+</button>
 
 <style>
 	.container {
@@ -25,6 +38,12 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		cursor: pointer;
+		background-color: transparent;
+	}
+
+	.container:hover {
+		transform: scale(1.1);
 	}
 
 	img {

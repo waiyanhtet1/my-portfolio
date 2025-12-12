@@ -8,7 +8,6 @@
 	}
 
 	let { size = 'md', children, onClick }: Props = $props();
-
 	let clickSound: HTMLAudioElement;
 
 	onMount(() => {
